@@ -2,4 +2,8 @@
 Speaker embedding extractor for various tasks.
 
 
-[NAme](https://www.joinhoney.com/shop/amazon/p/B01IRQAYPE/LG-27UD58-B-27-Inch-4K-UHD-IPS-Monitor-w#price-history)
+[2018, Li et al., Google, GENERALIZED END-TO-END LOSS FOR SPEAKER VERIFICATION](https://arxiv.org/pdf/1710.10467.pdf)
+
+[2015, George et al., Google, End-to-End Text-Dependent Speaker Verification](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44681.pdf)
+
+[2017, Chao et al., Baidu, End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)
