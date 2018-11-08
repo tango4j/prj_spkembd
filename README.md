@@ -12,8 +12,7 @@ Speaker embedding extractor for various tasks.
 
 [2017, David et al, JHU, Deep Neural Network Embeddings for Text-Independent Speaker Verification](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0620.PDF)
 
-
 ## Models
-
+### Dataset and Feature Description
 
 ## Performance Evaluation
