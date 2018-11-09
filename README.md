@@ -4,7 +4,7 @@ Open-source speaker embedding extractor.
 
 ## Reference Publications
 
-### Speaker Verification
+### 1.Speaker Verification
 [2015, George et al., Google, End-to-End Text-Dependent Speaker Verification](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44681.pdf)
 
 **Application**: Text Dependent  
@@ -22,7 +22,7 @@ Open-source speaker embedding extractor.
 [2017, David et al, JHU, Deep Neural Network Embeddings for Text-Independent Speaker Verification](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0620.PDF)
 
 
-### Loss Function
+### 2.Loss Function
 
 [2015, Florian et al., Google, FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
 
