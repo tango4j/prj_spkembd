@@ -9,6 +9,8 @@ Open-source speaker embedding extractor.
 **Feature**: Filterbank   
 **Neural Net Architecture**: Maxout-DNN(4-layer), embedding layer before softmax  
 **Normalization**: L2 Norm of embedding output  
+**Dataset Size**: 646 speakers
+**Baseline**: i-vector
 
 [2018, Li et al., Google, GENERALIZED END-TO-END LOSS FOR SPEAKER VERIFICATION](https://arxiv.org/pdf/1710.10467.pdf)
 
