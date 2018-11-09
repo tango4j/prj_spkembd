@@ -10,7 +10,7 @@ Open-source speaker embedding extractor.
 **Application**: Text Dependent  
 **Feature**: Filterbank   
 **Neural Net Architecture**: Maxout-DNN(4-layer), embedding layer before softmax  
-**Loss Function**: Cross entropy Loss
+**Loss Function**: Cross entropy Loss  
 **Normalization**: L2 Norm of embedding output  
 **Dataset Size**: 646 speakers  
 **Baseline**: i-vector
