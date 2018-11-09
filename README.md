@@ -24,7 +24,7 @@ Open-source speaker embedding extractor.
 
 ### 2. Loss Function Papers
 
-[2015, Florian et al., Google, FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
+[2015, Florian et al., Google, (Triplet loss paper)FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
 
 ## Dataset 
 
