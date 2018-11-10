@@ -30,7 +30,8 @@ Open-source speaker embedding extractor.
 
 [kaldi_io](https://github.com/vesis84/kaldi-io-for-python.git)
 numpy\
-Pytorch\ 
+Pytorch\
+awef
 
 ## Dataset 
 
