@@ -26,6 +26,10 @@ Open-source speaker embedding extractor.
 
 [2015, Florian et al., Google, (Triplet loss paper)FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
 
+## Dependency
+
+[kaldi_io](https://github.com/vesis84/kaldi-io-for-python.git)
+
 ## Dataset 
 
 
