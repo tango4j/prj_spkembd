@@ -19,6 +19,17 @@ Open-source speaker embedding extractor.
 
 [2017, Chao et al., Baidu, End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)
 
+**Application**: Text Dependent and Independent  
+**Feature**: 64 dim Fbank
+**Neural Net Architecture**: ResNet CNN and GRU
+**Pre-training**: Yes (softmax pre-training)
+**Loss Function**: Triplet loss with cosine distance metric
+**Feature Normalization**: Zero mean unit variance
+**Dataset**: Mandarin and English (not public)
+**Dataset Size**: 250,000 speakers  
+**Baseline**: DNN i-vector system
+**GPUs**: 16 K40 GPUs
+
 [2017, David et al, JHU, Deep Neural Network Embeddings for Text-Independent Speaker Verification](https://www.isca-speech.org/archive/Interspeech_2017/pdfs/0620.PDF)
 
 
