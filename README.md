@@ -20,12 +20,12 @@ Open-source speaker embedding extractor.
 
 **Application**: Text Independent and Independent("OK Google")  
 **Feature**: 40 dim Filterbank   
-**Neural Net Architecture**: 3 layer LSTM  
-**Loss Function**: GE2E (Generalized end-to-end loss) 
-**Normalization**: L2 Norm
-**Window Size**: 1.6 second overlap 50%, element wise average
-**Dataset Size**: 1000 speakers, 6.3 enrollment utterances, 7.2 evaluation utterances
-**Baseline**: TE2E (Tuple based end-to-end loss)
+**Neural Net Architecture**: 3 layer LSTM   
+**Loss Function**: GE2E (Generalized end-to-end loss)   
+**Normalization**: L2 Norm  
+**Window Size**: 1.6 second overlap 50%, element wise average  
+**Dataset Size**: 1000 speakers, 6.3 enrollment utterances, 7.2 evaluation utterances  
+**Baseline**: TE2E (Tuple based end-to-end loss)  
 
 [2017, Chao et al., Baidu, End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)
 
