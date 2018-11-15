@@ -17,6 +17,17 @@ Open-source speaker embedding extractor.
 
 [2018, Li et al., Google, GENERALIZED END-TO-END LOSS FOR SPEAKER VERIFICATION](https://arxiv.org/pdf/1710.10467.pdf)
 
+**Application**: Text Dependent and Independent  
+**Feature**: 40 dim log-mel Fbank  
+**Neural Net Architecture**: LSTM with projection  
+**Pre-training**: Not sure  
+**Loss Function**: Cosine similarity with triplet-like loss (but using centroids of emneddings per batch)  
+**Feature Normalization**:  L2 norm of embeddings 
+**Dataset**: Google's own (not public)  
+**Dataset Size**: Depends on TD vs TI experiments  
+**Baseline**: 1-layer LSTM followed by embedding layer   
+
+
 [2017, Chao et al., Baidu, End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)
 
 **Application**: Text Dependent and Independent  
