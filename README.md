@@ -8,25 +8,24 @@ Open-source speaker embedding extractor.
 [2015, George et al., Google, End-to-End Text-Dependent Speaker Verification](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44681.pdf)
 
 **Application**: Text Dependent  
-**Feature**: Filterbank   
+**Feature**: 40 dim Filterbank   
 **Neural Net Architecture**: Maxout-DNN(4-layer), embedding layer before softmax  
 **Loss Function**: Cross entropy Loss  
-**Normalization**: L2 Norm of embedding output  
+**Normalization**: L2 Norm 
 **Dataset Size**: 646 speakers  
 **Baseline**: i-vector
 
 [2018, Li et al., Google, GENERALIZED END-TO-END LOSS FOR SPEAKER VERIFICATION](https://arxiv.org/pdf/1710.10467.pdf)
 
-**Application**: Text Dependent and Independent  
-**Feature**: 40 dim log-mel Fbank  
-**Neural Net Architecture**: LSTM with projection  
-**Pre-training**: Not sure  
-**Loss Function**: Cosine similarity with triplet-like loss (but using centroids of emneddings per batch)  
-**Feature Normalization**:  L2 norm of embeddings 
-**Dataset**: Google's own (not public)  
-**Dataset Size**: Depends on TD vs TI experiments  
-**Baseline**: 1-layer LSTM followed by embedding layer   
 
+**Application**: Text Independent and Independent("OK Google")  
+**Feature**: 40 dim Filterbank   
+**Neural Net Architecture**: 3 layer LSTM  
+**Loss Function**: GE2E (Generalized end-to-end loss) 
+**Normalization**: L2 Norm
+**Window Size**: 1.6 second overlap 50%, element wise average
+**Dataset Size**: 1000 speakers, 6.3 enrollment utterances, 7.2 evaluation utterances
+**Baseline**: TE2E (Tuple based end-to-end loss)
 
 [2017, Chao et al., Baidu, End-to-End Neural Speaker Embedding System](https://arxiv.org/pdf/1705.02304.pdf)
 
