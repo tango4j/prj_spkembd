@@ -1,0 +1,9 @@
+{
+    "config_id": "salsa",
+    "data_type": "sre",
+    "data_path": "/home/inctrl/feat_dir/nist_sre_2018/feats/mfcc20/",
+    "data_subfolders": [
+        "sre04",
+        "sre05"
+    ]
+}

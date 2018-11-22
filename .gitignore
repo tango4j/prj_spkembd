@@ -1,0 +1,4 @@
+# Ignore other repos that need to be installed:
+kaldi-io-for-python/
+temp/
+
