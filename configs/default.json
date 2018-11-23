@@ -1,9 +1,22 @@
 {
-    "config_id": "salsa",
-    "data_type": "sre",
-    "data_path": "/home/inctrl/feat_dir/nist_sre_2018/feats/mfcc20/",
-    "data_subfolders": [
+    "config_id": "default",
+    "use_cuda": 1,
+    "data_type": "sample_data",
+    "data_path": "./",
+    "model": "baseline",
+    "train_subfolders": [
+        "mx6",
         "sre04",
-        "sre05"
+        "sre05",
+        "sre06",
+        "sre08",
+        "sre12",
+        "sw",
+        "train_aug_250k",
+        "vox1",
+        "vox2"
+    ],
+    "data_subfolders": [
+        "sample_data"
     ]
 }
