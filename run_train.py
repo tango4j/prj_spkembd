@@ -14,9 +14,12 @@ run_train.py executes the train.py with given parameters and settings.
 import numpy as np
 import torch
 import socket
+import os
 import os.path
 import trainer
 import json
+import modules 
+
 
 def getJsonConfig():
     '''
@@ -29,13 +32,14 @@ def getJsonConfig():
     
     if not os.path.isfile(file_directory):
         file_directory = config_folder + "default" + '.json'
-    
-    with open(file_directory, 'r') as f:
-        datastore = json.load(f)
+
+    datastore = modules.loadJson(file_directory)
 
     return datastore
 
 def main():
+    os.system('python create_json_config.py')
+
     config_dic =  getJsonConfig()
     print(config_dic)
     trainer.train(config_dic)

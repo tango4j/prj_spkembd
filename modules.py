@@ -4,6 +4,7 @@ import os
 from subprocess import Popen, PIPE
 import time
 import datetime
+import json
 import ipdb
 
 
@@ -142,8 +143,6 @@ def ftm(name):
     '''
     return name.replace('-A', '').replace('-B', '')
 
-
-
 def kaldiFeatLoader(kaldi_mfcc_file_index_list, trans_dict):
     '''
     Using trans_dict, this generator function loads
@@ -196,7 +195,6 @@ def seqLen(tD):
     SLout = np.count_nonzero(tD, axis=1) 
     return SLout
 
-
 def fisherSpkCH(fileid):
     ''' Fisher Corpora Channel Mapper '''
     spk = fileid.strip()[-1]
@@ -211,4 +209,14 @@ def makeTxtBash(file_name):
     else:
         bashGet('rm ' + file_name)
         bashGet('touch ' + file_name)
+
+def saveJson(path_str, dic):
+    with open(path_str, 'w') as fp:
+        json.dump(dic, fp, indent=4)
+        fp.write("\n")
+
+def loadJson(path_str):
+    with open(path_str, 'r') as f:
+        datastore = json.load(f)
+    return datastore
 

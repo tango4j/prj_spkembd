@@ -1,20 +1,27 @@
 {
     "config_id": "default",
     "use_cuda": 1,
+    "CUDA_VISIBLE_DEVICES": "1,2,3",
     "data_type": "sample_data",
     "data_path": "./",
+    "dev_set_ratio": 0.2,
     "model": "baseline",
+    "model_params": {
+        "input_size": 20,
+        "hidden_size": 128,
+        "num_layers": 1,
+        "learning_rate": 0.001
+    },
+    "max_epochs": 100000,
+    "frame_size": 2000,
+    "dataload_params": {
+        "batch_size": 10000,
+        "shuffle": false,
+        "num_workers": 10
+    },
     "train_subfolders": [
-        "mx6",
-        "sre04",
-        "sre05",
-        "sre06",
-        "sre08",
-        "sre12",
-        "sw",
-        "train_aug_250k",
-        "vox1",
-        "vox2"
+        "train",
+        "dev"
     ],
     "data_subfolders": [
         "sample_data"
